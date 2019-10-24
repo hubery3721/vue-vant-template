@@ -1,4 +1,5 @@
 # vue-mint-mobile
+## 为了方便项目开发，定制的一个vue/mintUI的模板脚手架
 
 ## Project setup
 ```
@@ -7,7 +8,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev
 ```
 
 ### Compiles and minifies for production
