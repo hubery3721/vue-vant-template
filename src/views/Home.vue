@@ -31,6 +31,19 @@ export default {
             email: "2888@gmail.com",
             active: "tab-container1"
         };
+    },
+    created() {
+        this.$api.article
+            .articleDetail(3, {
+                api: 123
+            })
+            .then(res => {
+                console.log("success");
+                // 执行某些操作
+            });
+    },
+    methods: {
+        onLoad(id) {}
     }
 };
 </script>
