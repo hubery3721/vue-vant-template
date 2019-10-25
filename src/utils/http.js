@@ -48,7 +48,7 @@ const errorHandle = (status, other) => {
         case 403:
             tip('登录过期，请重新登录');
             localStorage.removeItem('token');
-            store.commit('loginSuccess', null);
+            // store.commit('loginSuccess', null);
             setTimeout(() => {
                 toLogin();
             }, 1000);
